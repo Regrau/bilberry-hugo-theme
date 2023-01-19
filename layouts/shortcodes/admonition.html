@@ -1,0 +1,8 @@
+<div class="admonition {{ .Get 0 }}">
+    <h5 class="admonition-title .subtitle">
+       <b> 
+        {{ .Get 0 | upper }}:
+        </b>
+    </h5>
+        {{ .Inner | markdownify }}
+</div>

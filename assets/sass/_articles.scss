@@ -326,6 +326,24 @@ article {
         }
     }
 
+
+    // Admonitions
+    @mixin admon-color($color) {
+        color: lighten($color, 75%);
+        background-color: lighten($color, 5%);
+        border-color: $color;
+    }
+    .admonition {
+        border-radius: 4px;
+        padding: 1.5em;
+        
+        @include admon-color($base-color);
+
+        *:last-child {
+            margin-bottom: 0;
+        }
+    }
+
     // Quotes
     &.quote {
         background-color: $special-color;
