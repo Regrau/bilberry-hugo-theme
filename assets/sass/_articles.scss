@@ -329,15 +329,28 @@ article {
 
     // Admonitions
     @mixin admon-color($color) {
-        color: lighten($color, 75%);
-        background-color: lighten($color, 5%);
+        background-color: lighten($color, 55%);
         border-color: $color;
     }
+
     .admonition {
         border-radius: 4px;
         padding: 1.5em;
-        
-        @include admon-color($base-color);
+
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+
+        &.note {
+            @include admon-color($base-color);
+        };
+
+        &.caution {
+            @include admon-color($base-color-second);
+        };
+
+        &.warning {
+            @include admon-color($base-color-third);
+        };
 
         *:last-child {
             margin-bottom: 0;
