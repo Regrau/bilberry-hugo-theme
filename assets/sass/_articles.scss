@@ -331,6 +331,9 @@ article {
     @mixin admon-color($color) {
         background-color: lighten($color, 55%);
         border-color: $color;
+        a {
+            color: darken($highlight-color, 10%);
+        }
     }
 
     .admonition {
