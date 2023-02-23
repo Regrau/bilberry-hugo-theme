@@ -1,0 +1,141 @@
+$dt-gray-dark: #282a36;  // Background
+$dt-gray: #44475a;       // Current Line & Selection
+$dt-gray-light: #f8f8f2; // Foreground
+$dt-blue: #6272a4;       // Comment
+$dt-cyan: #8be9fd;
+$dt-green: #50fa7b;
+$dt-orange: #ffb86c;
+$dt-pink: #ff79c6;
+$dt-purple: #bd93f9;
+$dt-red: #ff5555;
+$dt-yellow: #f1fa8c;
+
+.asciinema-theme-dracula .asciinema-terminal {
+  font-family: "agave powerline";
+  color: $dt-gray-light !important;                    /* default text color */
+  background-color: $dt-gray-dark !important;         /* terminal background color */
+  border-color: $dt-gray-dark;
+}
+.asciinema-theme-dracula .fg-bg {    /* inverse for default text color */
+  color: #272822;
+}
+.asciinema-theme-dracula .bg-fg {    /* inverse for terminal background color */
+  background-color: #f8f8f2;
+}
+.asciinema-theme-dracula .fg-0 {
+  color: #272822;
+}
+.asciinema-theme-dracula .bg-0 {
+  background-color: $dt-gray-dark;
+}
+.asciinema-theme-dracula .fg-1 {
+  color: #f92672;
+}
+.asciinema-theme-dracula .bg-1 {
+  background-color: #f92672;
+}
+.asciinema-theme-dracula .fg-2 {
+  color: #a6e22e;
+}
+.asciinema-theme-dracula .bg-2 {
+  background-color: #a6e22e;
+}
+.asciinema-theme-dracula .fg-3 {
+  color: #f4bf75;
+}
+.asciinema-theme-dracula .bg-3 {
+  background-color: #f4bf75;
+}
+.asciinema-theme-dracula .fg-4 {
+  color: #66d9ef;
+}
+.asciinema-theme-dracula .bg-4 {
+  background-color: #66d9ef;
+}
+.asciinema-theme-dracula .fg-5 {
+  color: #ae81ff;
+}
+.asciinema-theme-dracula .bg-5 {
+  background-color: #ae81ff;
+}
+.asciinema-theme-dracula .fg-6 {
+  color: #a1efe4;
+}
+.asciinema-theme-dracula .bg-6 {
+  background-color: #a1efe4;
+}
+.asciinema-theme-dracula .fg-7 {
+  color: $dt-gray-light;
+}
+.asciinema-theme-dracula .bg-7 {
+  background-color: $dt-gray-dark;
+}
+.asciinema-theme-dracula .fg-8 {
+  color: #75715e;
+}
+.asciinema-theme-dracula .bg-8 {
+  background-color: #75715e;
+}
+.asciinema-theme-dracula .fg-9 {
+  color: #f92672;
+}
+.asciinema-theme-dracula .bg-9 {
+  background-color: #f92672;
+}
+.asciinema-theme-dracula .fg-10 {
+  color: #a6e22e;
+}
+.asciinema-theme-dracula .bg-10 {
+  background-color: #a6e22e;
+}
+.asciinema-theme-dracula .fg-11 {
+  color: #f4bf75;
+}
+.asciinema-theme-dracula .bg-11 {
+  background-color: #f4bf75;
+}
+.asciinema-theme-dracula .fg-12 {
+  color: #66d9ef;
+}
+.asciinema-theme-dracula .bg-12 {
+  background-color: #66d9ef;
+}
+.asciinema-theme-dracula .fg-13 {
+  color: #ae81ff;
+}
+.asciinema-theme-dracula .bg-13 {
+  background-color: #ae81ff;
+}
+.asciinema-theme-dracula .fg-14 {
+  color: #a1efe4;
+}
+.asciinema-theme-dracula .bg-14 {
+  background-color: #a1efe4;
+}
+.asciinema-theme-dracula .fg-15 {
+  color: #f9f8f5;
+}
+.asciinema-theme-dracula .bg-15 {
+  background-color: #f9f8f5;
+}
+.asciinema-theme-dracula .fg-8,
+.asciinema-theme-dracula .fg-9,
+.asciinema-theme-dracula .fg-10,
+.asciinema-theme-dracula .fg-11,
+.asciinema-theme-dracula .fg-12,
+.asciinema-theme-dracula .fg-13,
+.asciinema-theme-dracula .fg-14,
+.asciinema-theme-dracula .fg-15 {
+  font-weight: bold;
+}
+
+// This is a quickfix for partial border-radius on the player
+
+.asciinema-terminal.asciinema-terminal {
+  border-radius: 4px;
+}
+
+.asciinema-player-wrapper {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}

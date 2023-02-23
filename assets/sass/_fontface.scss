@@ -165,3 +165,9 @@
   /* Legacy iOS */
   font-display: swap;
 }
+
+/* Powerline fonts for asciinema player */
+@font-face {
+  font-family: 'agave powerline';
+  src: url('../../static/fonts/agave\ regular\ Nerd\ Font\ Complete\ Mono.ttf');
+}

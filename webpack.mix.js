@@ -19,6 +19,7 @@ mix.setPublicPath('./static')
 .setResourceRoot('./')
 .js('assets/js/theme.js', './')
 .sass('assets/sass/theme.scss', './')
+.css('node_modules/asciinema-player/dist/bundle/asciinema-player.css', './')
 
 // Full API
 // mix.js(src, output);

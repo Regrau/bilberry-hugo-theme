@@ -5,6 +5,7 @@ require('algoliasearch/dist/algoliasearch.jquery');
 require('autocomplete.js/dist/autocomplete.jquery');
 require('tooltipster');
 require('magnific-popup');
+import * as AsciinemaPlayer from 'asciinema-player';
 
 let ClipboardJs = require('clipboard')
 let hljs = require('highlight.js');
@@ -20,12 +21,19 @@ new ClipboardJs('.copy-button', {
     e.clearSelection()
 });
 
-$(document).ready(function () {
+function spawnAsciinemaPlayer(element, iterator) {
+    let params = $(`#${element.id}`).data()
+    AsciinemaPlayer.create(params.src, element, params)
+}
 
+$(document).ready(function () {
     // Add copy button and tooltip to each code-block
     $('pre').each(function () {
         $(this).append('<button class="copy-button tooltip" title="Copied!"><i class="far fa-fw fa-copy"></i></button>')
     });
+
+    let asciinemaPlayerAnchors = document.querySelectorAll('[id ^= "asciinema-player-"]')
+    Array.prototype.forEach.call(asciinemaPlayerAnchors, spawnAsciinemaPlayer)
 
     $('.tooltip').tooltipster({
         animationDuration: 1,
@@ -77,7 +85,7 @@ $(document).ready(function () {
     blockSearchFocusGiscus = false;
 
     $('#giscus').focusin(function() {
-        blockSearchFocusGiscus = true;
+        blockSearchFocusGiscus = true;                                                       
     });
 
     $('#giscus').focusout(function() {
