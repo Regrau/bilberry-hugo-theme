@@ -16,10 +16,39 @@ mix.autoload({
 });
 
 mix.setPublicPath('./static')
-.setResourceRoot('./')
-.js('assets/js/theme.js', './')
-.sass('assets/sass/theme.scss', './')
-.css('node_modules/asciinema-player/dist/bundle/asciinema-player.css', './')
+  .setResourceRoot('./')
+  .js('assets/js/theme.js', './')
+  .sass('assets/sass/theme.scss', './')
+  .css('node_modules/asciinema-player/dist/bundle/asciinema-player.css', './')
+  .then(() => {
+    const fs = require("fs");
+    const oldFontsPath = './static/fonts/vendor';
+    const newFontsPath = './static/fonts/_vendor';
+    const themeFile = './static/theme.css';
+
+    if (fs.existsSync(newFontsPath)) {
+      fs.rmdirSync(newFontsPath, { recursive: true, force: true });
+    }
+
+    fs.rename(oldFontsPath, newFontsPath, function (err) {
+      if (err) {
+        console.log(err)
+      }
+    })
+
+    fs.readFile(themeFile, 'utf8', function (err, data) {
+      if (err) {
+        return console.log(err);
+      }
+      let result = data.replace(/vendor/g, '_vendor');
+
+      fs.writeFile(themeFile, result, 'utf8', function (err) {
+        if (err) {
+          return console.log(err);
+        }
+      });
+    });
+  });
 
 // Full API
 // mix.js(src, output);

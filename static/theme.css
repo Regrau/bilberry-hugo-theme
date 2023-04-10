@@ -784,8 +784,8 @@ there.
  * ====================================================================================================================*/
 @font-face {
   font-family: 'flexslider-icon';
-  src: url(./fonts/vendor/flexslider/flexslider-icon.eot?0c4bb125c0f3d608f400f5badfe05702);
-  src: url(./fonts/vendor/flexslider/flexslider-icon.eot?0c4bb125c0f3d608f400f5badfe05702?#iefix) format('embedded-opentype'), url(./fonts/vendor/flexslider/flexslider-icon.woff?b5aefbb787e9e5f6aa2a665a5beeff40) format('woff'), url(./fonts/vendor/flexslider/flexslider-icon.ttf?c6c9e9e51970069505501afd6a89fcc9) format('truetype'), url(./fonts/vendor/flexslider/flexslider-icon.svg?b1ded4b15ae90bc8f88e2c3117dc8a8b#flexslider-icon) format('svg');
+  src: url(./fonts/_vendor/flexslider/flexslider-icon.eot?0c4bb125c0f3d608f400f5badfe05702);
+  src: url(./fonts/_vendor/flexslider/flexslider-icon.eot?0c4bb125c0f3d608f400f5badfe05702?#iefix) format('embedded-opentype'), url(./fonts/_vendor/flexslider/flexslider-icon.woff?b5aefbb787e9e5f6aa2a665a5beeff40) format('woff'), url(./fonts/_vendor/flexslider/flexslider-icon.ttf?c6c9e9e51970069505501afd6a89fcc9) format('truetype'), url(./fonts/_vendor/flexslider/flexslider-icon.svg?b1ded4b15ae90bc8f88e2c3117dc8a8b#flexslider-icon) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1551,6 +1551,11 @@ corresponds to the arrow we want to display */
   border-radius: 4px;
 }
 
+.asciinema-player-wrapper {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
 /*!
  * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -1560,8 +1565,8 @@ corresponds to the arrow we want to display */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot?bfcc3384b8a317dc5de33e70117173e2);
-  src: url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot?bfcc3384b8a317dc5de33e70117173e2) format("embedded-opentype"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2?37913cdf7cb0571dfac04a74caad2087) format("woff2"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff?28d8b8fcc41c3b7134ff39117823cc89) format("woff"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf?1776173e3b1af55eb4554403f3454ed8) format("truetype"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg?63b566233f163d538ccefed7c4e87e44) format("svg");
+  src: url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot?bfcc3384b8a317dc5de33e70117173e2);
+  src: url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot?bfcc3384b8a317dc5de33e70117173e2) format("embedded-opentype"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2?37913cdf7cb0571dfac04a74caad2087) format("woff2"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff?28d8b8fcc41c3b7134ff39117823cc89) format("woff"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf?1776173e3b1af55eb4554403f3454ed8) format("truetype"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg?63b566233f163d538ccefed7c4e87e44) format("svg");
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
@@ -1577,8 +1582,8 @@ corresponds to the arrow we want to display */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot?0c6f12b9eaa2ad444a6be2f133aa1cec);
-  src: url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot?0c6f12b9eaa2ad444a6be2f133aa1cec) format("embedded-opentype"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2?c3c2ab4f63b8d9973c78816fefa1408e) format("woff2"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff?fcaa6c135683a3fa1b505fa30b01c8e9) format("woff"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.ttf?c9c57c0f1f4eb34dbf575201caf2061f) format("truetype"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.svg?1b536b782d09dd59dda8eaccc0ea5297) format("svg");
+  src: url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot?0c6f12b9eaa2ad444a6be2f133aa1cec);
+  src: url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot?0c6f12b9eaa2ad444a6be2f133aa1cec) format("embedded-opentype"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2?c3c2ab4f63b8d9973c78816fefa1408e) format("woff2"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff?fcaa6c135683a3fa1b505fa30b01c8e9) format("woff"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-regular-400.ttf?c9c57c0f1f4eb34dbf575201caf2061f) format("truetype"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-regular-400.svg?1b536b782d09dd59dda8eaccc0ea5297) format("svg");
 }
 .far {
   font-family: "Font Awesome 5 Free";
@@ -1594,8 +1599,8 @@ corresponds to the arrow we want to display */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot?dfaa060a451d978c25655eb19bd949e9);
-  src: url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot?dfaa060a451d978c25655eb19bd949e9) format("embedded-opentype"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2?4055b0575d40bfb3c7e89c7d6b5e959d) format("woff2"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff?22aa6d4357cf74671bc40dbb9bc36d79) format("woff"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf?a480ec972cb6bce3053367cb26d11f42) format("truetype"), url(./fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.svg?3e2bc2ffd29f01066d23733ca81d2bac) format("svg");
+  src: url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot?dfaa060a451d978c25655eb19bd949e9);
+  src: url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot?dfaa060a451d978c25655eb19bd949e9) format("embedded-opentype"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2?4055b0575d40bfb3c7e89c7d6b5e959d) format("woff2"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff?22aa6d4357cf74671bc40dbb9bc36d79) format("woff"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf?a480ec972cb6bce3053367cb26d11f42) format("truetype"), url(./fonts/_vendor/@fortawesome/fontawesome-free/webfa-solid-900.svg?3e2bc2ffd29f01066d23733ca81d2bac) format("svg");
 }
 .fa,
 .fas {
@@ -8164,6 +8169,7 @@ img.mfp-img {
   /* Legacy iOS */
   font-display: swap;
 }
+/* Powerline fonts for asciinema player */
 @font-face {
   font-family: "agave powerline";
   src: url("./fonts/agave regular Nerd Font Complete Mono.ttf?7ff2740e474644a30cffa2548fe74a15");
@@ -8975,10 +8981,6 @@ http://zenorocha.mit-license.org
 }
 .bilberry-hugo-theme article .footnotes ol li p {
   margin-bottom: 0.5em;
-}
-.bilberry-hugo-theme article .asciinema-player-wrapper {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
 }
 .bilberry-hugo-theme article .admonition {
   border-radius: 4px;
