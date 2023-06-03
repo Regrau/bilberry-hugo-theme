@@ -14999,8 +14999,6 @@ function getDriver(src) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var asciinema_player__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! asciinema-player */ "./node_modules/asciinema-player/dist/index.js");
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);
 /* provided dependency */ var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 // dependencies
 __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
@@ -15014,7 +15012,6 @@ __webpack_require__(/*! autocomplete.js/dist/autocomplete.jquery */ "./node_modu
 __webpack_require__(/*! tooltipster */ "./node_modules/tooltipster/dist/js/tooltipster.bundle.min.js");
 
 __webpack_require__(/*! magnific-popup */ "./node_modules/magnific-popup/dist/jquery.magnific-popup.js");
-
 
 
 
