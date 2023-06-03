@@ -68,6 +68,7 @@ Please use the following guidelines if you want to start a discussion:
   - [Video](#video)
     - [PeerTube Configuration](#peertube-configuration)
   - [Audio](#audio)
+  - [Yandex Metrica](#yandex-metrica)
   - [Google Analytics](#google-analytics)
   - [Comments](#comments)
     - [Commento](#commento)
@@ -605,6 +606,15 @@ The second option is to use the `audio` shortcode within markdown content in a p
 
 <!-- MP3 in site's static folder -->
 {{< audio type="audiofile" url="/<audio-file-name>.mp3" >}}
+```
+
+### Yandex Metrica
+This theme allows the use of yandex metrika. Set the value of `params.yandexMetrica`
+to your counter ID in `config.toml` to enable it.
+
+```toml
+[params]
+  yandexMetrica = "999999"
 ```
 
 ### Google Analytics
