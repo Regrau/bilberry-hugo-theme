@@ -1,0 +1,20 @@
+{   
+    "name": "Chipnibbles.ru",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [
+        1313
+    ],
+    "remoteUser": "vscode",
+    
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mutantdino.resourcemonitor",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    },
+    "postCreateCommand": "npm install"
+}
