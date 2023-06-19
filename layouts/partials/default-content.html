@@ -7,11 +7,7 @@
 
     <div class="meta">
         {{ if ( .ctx.Params.showDate | default true ) }}
-            {{ if ( .ctx.Site.Params.enableMomentJs | default true ) }}
-                <span class="date moment">{{ .ctx.PublishDate.Format "2006-01-02" }}</span>
-            {{ else }}
-                <span class="date">{{ .ctx.PublishDate.Format (.ctx.Site.Params.DateFormat | default "2006-01-02") }}</span>
-            {{ end }}
+                <span class="date">{{ dateFormat (.ctx.Site.Params.DateFormat | default "2006-01-02") .ctx.PublishDate }}</span>
         {{ end }}
 
         {{ if ( .ctx.Site.Params.showReadingTime | default false ) }}

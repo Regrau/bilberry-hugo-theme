@@ -12,7 +12,6 @@ let mix = require('laravel-mix');
  */
 mix.autoload({
   jquery: ['$', 'window.jQuery', 'jQuery'],
-  moment: 'moment'
 });
 
 mix.setPublicPath('./static')
